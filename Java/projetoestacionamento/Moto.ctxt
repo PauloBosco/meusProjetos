@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Moto
+comment1.params=placa\ cliente\ horaEntrada
+comment1.target=Moto(java.lang.String,\ Cliente,\ java.time.LocalTime)
+numComments=2

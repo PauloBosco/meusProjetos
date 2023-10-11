@@ -1,0 +1,63 @@
+Lista de tarefas{
+    - fazer o menu interativo ---FEITO----
+    - terminar o relatorio(Ver o que falta); ----FEITO -----
+    - criar um metodo que retorna informações do veiculo a partida placa (sem ser o metodo de saida)
+    - Sobrescrever o metodo acima para que ele receba o nome do cliente como parametro e retorne as mesmas infos
+    obs( Pensei nesses dois metodos para caso professor peça na apresentação. "Puxa um carro ai pela placa ou nome do cliente");
+    
+}
+
+
+Obs: Deixei comentado os códigos que ainda serão implementados.
+Já criei todas as classes conforme o arquivo que te mandei, comecei a mexer na classe
+Funcionario, mas resolvi dar uma parada pra nao adiantar muito o trabalho sem ter commit seu.
+Qualquer dúvida me manda msg.
+
+
+
+
+Estacionamento estacionamento = new Estacionamento();
+
+Funcionario func1 = new Funcionario();
+
+func1.entradaVeiculo(carro,XXX-1234,12:40);
+func1.saidaVeiculo(XXX-1234,13:30);
+
+func1.calculaTaxa(XXX-1234);
+
+_________________________________________________________________________________
+
+entradaVeiculo(String tipo, Carro placa, Carro horaEntrada){
+
+
+Veiculo v;
+
+if (veiculo.nome.equals("carro")) {
+    v = new Carro();
+    estacionamento.addVeiculo(v);
+    
+} else if (veiculo.nome.equals("moto")) {
+    v = new Moto();
+    estacionamento.addVeiculo(v);
+} else {
+    v = new Caminhao();
+    estacionamento.addVeiculo(v);    
+}
+
+
+carro.setPlaca(placa);
+carro.setHoraEntrada(horaEntrada);
+}
+
+______________________________________________________________________
+
+calculaTaxa(Veiculo placa){
+double valorTaxa = 0;
+forEach(Veiculo v:listaVeiculos){
+
+    if(v.getPlaca()== placa){
+        valorTaxa = v.horaSaida - v.HoraEntrada
+    }
+
+return valorTaxa;
+}

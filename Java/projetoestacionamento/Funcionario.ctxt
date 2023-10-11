@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=nome\ cargo\ estacionamento
+comment1.target=Funcionario(java.lang.String,\ java.lang.String,\ Estacionamento)
+comment10.params=
+comment10.target=java.time.LocalTime\ pegaHora()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=nome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getCargo()
+comment5.params=cargo
+comment5.target=void\ seCargo(java.lang.String)
+comment6.params=
+comment6.target=int\ getVagasDisponiveis()
+comment7.params=tipo\ placa\ nomeCliente
+comment7.target=void\ entradaVeiculo(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.params=placa
+comment8.target=java.lang.String\ saidaVeiculo(java.lang.String)
+comment9.params=horasNoEstacionamento\ v
+comment9.target=java.lang.String\ calculaTarifa(double,\ Veiculo)
+numComments=11

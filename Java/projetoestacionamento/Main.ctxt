@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a
+comment2.target=int\ Menu(java.util.Scanner)
+comment3.params=f
+comment3.target=void\ cadastraVeiculo(Funcionario)
+comment4.params=f
+comment4.target=java.lang.String\ saidaVeiculo(Funcionario)
+comment5.params=e
+comment5.target=void\ retornaListaVeiculos(Estacionamento)
+comment6.params=e\ f
+comment6.target=void\ geraRelatorio(Estacionamento,\ Funcionario)
+numComments=7
